@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a13661-6bb4-72e3-96c7-281e68e70643"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"Ben books the dry run for Friday at nine — **Rehearsal plan** [00:14]."}}
+{"type":"turn.completed","usage":{"input_tokens":63105,"cached_input_tokens":57728,"cache_write_input_tokens":0,"output_tokens":235,"reasoning_output_tokens":0}}

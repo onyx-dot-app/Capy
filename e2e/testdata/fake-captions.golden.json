@@ -1,0 +1,49 @@
+{
+  "langA": "en-US",
+  "langB": "zh-CN",
+  "translate": true,
+  "status": "done",
+  "segments": [
+    {
+      "lang": "en-US",
+      "text": "Welcome to the Capy demo.",
+      "translation": "[zh-CN] Welcome to the Capy demo.",
+      "translationLang": "zh-CN"
+    },
+    {
+      "lang": "en-US",
+      "text": "Zoom Scribe turns this speech into text as I talk.",
+      "translation": "[zh-CN] Zoom Scribe turns this speech into text as I talk.",
+      "translationLang": "zh-CN"
+    },
+    {
+      "lang": "en-US",
+      "text": "Then Translator and Summarizer do the rest.",
+      "translation": "[zh-CN] Then Translator and Summarizer do the rest.",
+      "translationLang": "zh-CN"
+    }
+  ],
+  "recap": {
+    "status": "ready",
+    "title": "Recap (zh-CN)",
+    "text": "# Recap (zh-CN)\n\n- 3 lines discussed\n- Action: follow up"
+  },
+  "checks": [
+    {
+      "name": "transcribed",
+      "pass": true,
+      "detail": "3 turns"
+    },
+    {
+      "name": "translated",
+      "pass": true,
+      "detail": "3 of 3 turns"
+    },
+    {
+      "name": "recap",
+      "pass": true,
+      "detail": "ready"
+    }
+  ],
+  "verdict": "pass"
+}

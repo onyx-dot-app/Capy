@@ -1,0 +1,33 @@
+{
+  "name": "launch-sync",
+  "listener": {"name": "Alex Rivera", "aliases": ["Alex", "Capy team"]},
+  "turns": [
+    {"ms": 0, "speaker": "Speaker 1", "text": "Okay, let's get started. Thanks everyone for joining the launch sync."},
+    {"ms": 9000, "speaker": "Speaker 1", "text": "So the two options on the table were forty-nine or fifty-nine for annual."},
+    {"ms": 21000, "speaker": "Speaker 2", "text": "Fifty-nine felt high in the interviews, honestly."},
+    {"ms": 34000, "speaker": "Speaker 1", "text": "Okay, annual goes to forty-nine, monthly stays at five. Let's lock that."},
+    {"ms": 61000, "speaker": "Speaker 2", "text": "Legal signed off on the new terms this morning, so the banner goes live Friday."},
+    {"ms": 95000, "speaker": "Speaker 1", "text": "The pricing slide still shows last quarter's numbers."},
+    {"ms": 104000, "speaker": "Speaker 1", "text": "Alex, can you update the pricing slide before Thursday's dry run?"},
+    {"ms": 117000, "speaker": "Speaker 3", "text": "Sure. And I'll record the backup demo video tonight, just in case."},
+    {"ms": 190000, "speaker": "Speaker 2", "text": "One thing: the EU data residency review isn't done, and that could block the launch there."},
+    {"ms": 214000, "speaker": "Speaker 1", "text": "Can someone ping Jordan about that after this?"},
+    {"ms": 330000, "speaker": "Speaker 3", "text": "Alex already checked the numbers with finance, so we're good on margins."},
+    {"ms": 352000, "speaker": "Speaker 1", "text": "Great. Let's keep the dry run Thursday at four, same room."},
+    {"ms": 371000, "speaker": "Speaker 3", "text": "Works for me. Do we need the Tokyo folks on that one?"},
+    {"ms": 383000, "speaker": "Speaker 1", "text": "Probably not, they've seen the deck already."},
+    {"ms": 395000, "speaker": "Speaker 2", "text": "Honestly, we could skip the dry run and go straight to the launch review."},
+    {"ms": 408000, "speaker": "Speaker 3", "text": "I don't agree, the demo broke last time, we need the dry run."},
+    {"ms": 421000, "speaker": "Speaker 1", "text": "Fair point. The dry run stays, Thursday at four."}
+  ],
+  "labels": [
+    {"turn": 3, "kind": "decision"},
+    {"turn": 4, "kind": "announcement"},
+    {"turn": 6, "kind": "asked_you"},
+    {"turn": 7, "kind": "action"},
+    {"turn": 8, "kind": "heads_up"},
+    {"turn": 10, "kind": "mentioned_you"},
+    {"turn": 15, "kind": "debate"},
+    {"turn": 16, "kind": "decision"}
+  ]
+}

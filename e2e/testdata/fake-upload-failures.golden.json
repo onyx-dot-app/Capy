@@ -1,0 +1,79 @@
+{
+  "batch": "Calls",
+  "language": "en-US",
+  "files": [
+    {
+      "name": "broken.wav",
+      "durationMs": 13328,
+      "state": "failed",
+      "problem": "transcribe",
+      "lengthMs": 0,
+      "segments": [],
+      "recap": {
+        "status": "",
+        "title": "",
+        "text": ""
+      }
+    },
+    {
+      "name": "flaky call.wav",
+      "durationMs": 13328,
+      "state": "saved",
+      "source": "file",
+      "fileName": "flaky call.wav",
+      "lengthMs": 4500,
+      "segments": [
+        {
+          "lang": "en-US",
+          "text": "This is flaky call.wav.",
+          "speaker": "Speaker 1",
+          "translation": "",
+          "translationLang": ""
+        },
+        {
+          "lang": "en-US",
+          "text": "It is 426524 bytes long.",
+          "speaker": "Speaker 2",
+          "translation": "",
+          "translationLang": ""
+        }
+      ],
+      "recap": {
+        "status": "failed",
+        "title": "flaky call",
+        "text": ""
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "broken.wav: transcribed",
+      "pass": false,
+      "detail": "0 turns"
+    },
+    {
+      "name": "broken.wav: saved as its file, in the batch",
+      "pass": false
+    },
+    {
+      "name": "broken.wav: summarized",
+      "pass": false
+    },
+    {
+      "name": "flaky call.wav: transcribed",
+      "pass": true,
+      "detail": "2 turns"
+    },
+    {
+      "name": "flaky call.wav: saved as its file, in the batch",
+      "pass": true,
+      "detail": "flaky call"
+    },
+    {
+      "name": "flaky call.wav: summarized",
+      "pass": false,
+      "detail": "failed"
+    }
+  ],
+  "verdict": "fail"
+}

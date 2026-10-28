@@ -1,0 +1,14 @@
+{
+  "name": "quiet-standup",
+  "listener": {"name": "Alex Rivera", "aliases": ["Alex"]},
+  "quiet": true,
+  "turns": [
+    {"ms": 0, "speaker": "Speaker 1", "text": "Morning, everyone. How was the weekend?"},
+    {"ms": 7000, "speaker": "Speaker 2", "text": "Good, we finally went hiking up the coast. The weather held up."},
+    {"ms": 19000, "speaker": "Speaker 1", "text": "Nice. Okay, quick round. I'm still on the settings page, no blockers."},
+    {"ms": 31000, "speaker": "Speaker 2", "text": "Same as Friday, I'm reviewing the import tests and should finish today."},
+    {"ms": 44000, "speaker": "Speaker 3", "text": "I'm pairing with Sam on the caption bar spacing. Nothing new to report."},
+    {"ms": 58000, "speaker": "Speaker 1", "text": "Cool. Anything else? No? Then that's it, see you tomorrow."}
+  ],
+  "labels": []
+}

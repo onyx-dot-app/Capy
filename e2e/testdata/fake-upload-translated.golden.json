@@ -1,0 +1,108 @@
+{
+  "batch": "interview",
+  "language": "en-US",
+  "target": "fr-FR",
+  "files": [
+    {
+      "name": "interview-acme.wav",
+      "durationMs": 13328,
+      "state": "saved",
+      "source": "file",
+      "fileName": "interview-acme.wav",
+      "lengthMs": 4500,
+      "segments": [
+        {
+          "lang": "en-US",
+          "text": "This is interview-acme.wav.",
+          "speaker": "Speaker 1",
+          "translation": "[fr-FR] This is interview-acme.wav.",
+          "translationLang": "fr-FR"
+        },
+        {
+          "lang": "en-US",
+          "text": "It is 426524 bytes long.",
+          "speaker": "Speaker 2",
+          "translation": "[fr-FR] It is 426524 bytes long.",
+          "translationLang": "fr-FR"
+        }
+      ],
+      "recap": {
+        "status": "ready",
+        "title": "interview-acme",
+        "text": "## Summary (en-US)\n\n- interview-acme.wav was discussed"
+      }
+    },
+    {
+      "name": "interview-birch.wav",
+      "durationMs": 13328,
+      "state": "saved",
+      "source": "file",
+      "fileName": "interview-birch.wav",
+      "lengthMs": 4500,
+      "segments": [
+        {
+          "lang": "en-US",
+          "text": "This is interview-birch.wav.",
+          "speaker": "Speaker 1",
+          "translation": "[fr-FR] This is interview-birch.wav.",
+          "translationLang": "fr-FR"
+        },
+        {
+          "lang": "en-US",
+          "text": "It is 426524 bytes long.",
+          "speaker": "Speaker 2",
+          "translation": "[fr-FR] It is 426524 bytes long.",
+          "translationLang": "fr-FR"
+        }
+      ],
+      "recap": {
+        "status": "ready",
+        "title": "interview-birch",
+        "text": "## Summary (en-US)\n\n- interview-birch.wav was discussed"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "interview-acme.wav: transcribed",
+      "pass": true,
+      "detail": "2 turns"
+    },
+    {
+      "name": "interview-acme.wav: saved as its file, in the batch",
+      "pass": true,
+      "detail": "interview-acme"
+    },
+    {
+      "name": "interview-acme.wav: summarized",
+      "pass": true,
+      "detail": "ready"
+    },
+    {
+      "name": "interview-acme.wav: translated",
+      "pass": true,
+      "detail": "2 of 2 turns"
+    },
+    {
+      "name": "interview-birch.wav: transcribed",
+      "pass": true,
+      "detail": "2 turns"
+    },
+    {
+      "name": "interview-birch.wav: saved as its file, in the batch",
+      "pass": true,
+      "detail": "interview-birch"
+    },
+    {
+      "name": "interview-birch.wav: summarized",
+      "pass": true,
+      "detail": "ready"
+    },
+    {
+      "name": "interview-birch.wav: translated",
+      "pass": true,
+      "detail": "2 of 2 turns"
+    }
+  ],
+  "verdict": "pass"
+}

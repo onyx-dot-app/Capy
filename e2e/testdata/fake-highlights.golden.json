@@ -1,0 +1,71 @@
+{
+  "langA": "en-US",
+  "langB": "zh-CN",
+  "translate": true,
+  "status": "done",
+  "segments": [
+    {
+      "lang": "en-US",
+      "text": "Okay, annual goes to forty-nine, monthly stays at five.",
+      "translation": "[zh-CN] Okay, annual goes to forty-nine, monthly stays at five.",
+      "translationLang": "zh-CN"
+    },
+    {
+      "lang": "en-US",
+      "text": "Alex, can you update the pricing slide before Thursday?",
+      "translation": "[zh-CN] Alex, can you update the pricing slide before Thursday?",
+      "translationLang": "zh-CN"
+    },
+    {
+      "lang": "en-US",
+      "text": "The EU residency review isn't done, and that could block the launch there.",
+      "translation": "[zh-CN] The EU residency review isn't done, and that could block the launch there.",
+      "translationLang": "zh-CN"
+    }
+  ],
+  "recap": {
+    "status": "ready",
+    "title": "Recap (zh-CN)",
+    "text": "# Recap (zh-CN)\n\n- 3 lines discussed\n- Action: follow up"
+  },
+  "highlights": [
+    {
+      "kind": "decision",
+      "seq": 0,
+      "time": "00:02"
+    },
+    {
+      "kind": "asked_you",
+      "seq": 1,
+      "time": "00:05"
+    },
+    {
+      "kind": "heads_up",
+      "seq": 2,
+      "time": "00:08"
+    }
+  ],
+  "checks": [
+    {
+      "name": "transcribed",
+      "pass": true,
+      "detail": "3 turns"
+    },
+    {
+      "name": "translated",
+      "pass": true,
+      "detail": "3 of 3 turns"
+    },
+    {
+      "name": "recap",
+      "pass": true,
+      "detail": "ready"
+    },
+    {
+      "name": "highlights",
+      "pass": true,
+      "detail": "3 marked"
+    }
+  ],
+  "verdict": "pass"
+}

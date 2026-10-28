@@ -1,0 +1,97 @@
+{
+  "batch": "Customer interviews",
+  "language": "en-US",
+  "files": [
+    {
+      "name": "Launch rehearsal.wav",
+      "durationMs": 13328,
+      "state": "saved",
+      "source": "file",
+      "fileName": "Launch rehearsal.wav",
+      "lengthMs": 4500,
+      "segments": [
+        {
+          "lang": "en-US",
+          "text": "This is Launch rehearsal.wav.",
+          "speaker": "Speaker 1",
+          "translation": "",
+          "translationLang": ""
+        },
+        {
+          "lang": "en-US",
+          "text": "It is 426524 bytes long.",
+          "speaker": "Speaker 2",
+          "translation": "",
+          "translationLang": ""
+        }
+      ],
+      "recap": {
+        "status": "ready",
+        "title": "Launch rehearsal",
+        "text": "## Summary (en-US)\n\n- Launch rehearsal.wav was discussed"
+      }
+    },
+    {
+      "name": "Standup.wav",
+      "durationMs": 13328,
+      "state": "saved",
+      "source": "file",
+      "fileName": "Standup.wav",
+      "lengthMs": 4500,
+      "segments": [
+        {
+          "lang": "en-US",
+          "text": "This is Standup.wav.",
+          "speaker": "Speaker 1",
+          "translation": "",
+          "translationLang": ""
+        },
+        {
+          "lang": "en-US",
+          "text": "It is 426524 bytes long.",
+          "speaker": "Speaker 2",
+          "translation": "",
+          "translationLang": ""
+        }
+      ],
+      "recap": {
+        "status": "ready",
+        "title": "Standup",
+        "text": "## Summary (en-US)\n\n- Standup.wav was discussed"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "name": "Launch rehearsal.wav: transcribed",
+      "pass": true,
+      "detail": "2 turns"
+    },
+    {
+      "name": "Launch rehearsal.wav: saved as its file, in the batch",
+      "pass": true,
+      "detail": "Launch rehearsal"
+    },
+    {
+      "name": "Launch rehearsal.wav: summarized",
+      "pass": true,
+      "detail": "ready"
+    },
+    {
+      "name": "Standup.wav: transcribed",
+      "pass": true,
+      "detail": "2 turns"
+    },
+    {
+      "name": "Standup.wav: saved as its file, in the batch",
+      "pass": true,
+      "detail": "Standup"
+    },
+    {
+      "name": "Standup.wav: summarized",
+      "pass": true,
+      "detail": "ready"
+    }
+  ],
+  "verdict": "pass"
+}

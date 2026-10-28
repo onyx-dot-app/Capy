@@ -1,0 +1,14 @@
+{
+  "name": "Capy",
+  "identifier": "com.ai.capy",
+  "version": "0.1.0",
+  "out": "build",
+  "macos": {
+    "entitlements": "entitlements.plist",
+    "infoPlist": {
+      "LSUIElement": true,
+      "NSMicrophoneUsageDescription": "Capy sends what it hears to Zoom AI Services to transcribe, translate and summarize it.",
+      "NSAudioCaptureUsageDescription": "Capy sends what this Mac plays to Zoom AI Services to transcribe, translate and summarize it."
+    }
+  }
+}

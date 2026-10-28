@@ -1,0 +1,144 @@
+{
+  "langA": "en-US",
+  "langB": "zh-CN",
+  "translate": true,
+  "status": "done",
+  "segments": [
+    {
+      "lang": "en-US",
+      "text": "Welcome to the Capy demo.",
+      "translation": "[zh-CN] Welcome to the Capy demo.",
+      "translationLang": "zh-CN"
+    },
+    {
+      "lang": "en-US",
+      "text": "Zoom Scribe turns this speech into text as I talk.",
+      "translation": "[zh-CN] Zoom Scribe turns this speech into text as I talk.",
+      "translationLang": "zh-CN"
+    },
+    {
+      "lang": "en-US",
+      "text": "Then Translator and Summarizer do the rest.",
+      "translation": "[zh-CN] Then Translator and Summarizer do the rest.",
+      "translationLang": "zh-CN"
+    }
+  ],
+  "recap": {
+    "status": "ready",
+    "title": "Recap (zh-CN)",
+    "text": "# Recap (zh-CN)\n\n- 3 lines discussed\n- Action: follow up"
+  },
+  "ask": {
+    "agent": "claude-code",
+    "question": "Edit the demo and move it to Recently Deleted.",
+    "live": false,
+    "tools": [
+      "get_session",
+      "rename_session",
+      "update_recap",
+      "delete_session"
+    ],
+    "answer": "The demo begins at [00:02]. I edited it and moved it to Recently Deleted.",
+    "outcome": "done",
+    "thread": {
+      "scope": "session",
+      "agent": "claude-code",
+      "conversation": true,
+      "messages": [
+        {
+          "role": "user",
+          "status": "done",
+          "text": "Edit the demo and move it to Recently Deleted."
+        },
+        {
+          "role": "agent",
+          "status": "done",
+          "text": "The demo begins at [00:02]. I edited it and moved it to Recently Deleted."
+        },
+        {
+          "role": "edit",
+          "status": "done",
+          "text": ""
+        },
+        {
+          "role": "edit",
+          "status": "done",
+          "text": ""
+        },
+        {
+          "role": "edit",
+          "status": "done",
+          "text": ""
+        }
+      ]
+    },
+    "edits": [
+      {
+        "field": "title",
+        "old": "",
+        "new": "Capy demo",
+        "undone": true
+      },
+      {
+        "field": "recap",
+        "old": "# Recap (zh-CN)\n\n- 3 lines discussed\n- Action: follow up",
+        "new": "# Demo\n\n- Scribe, Translator and Summarizer",
+        "undone": true
+      },
+      {
+        "field": "trash",
+        "old": "",
+        "new": "trashed",
+        "undone": true
+      }
+    ]
+  },
+  "checks": [
+    {
+      "name": "transcribed",
+      "pass": true,
+      "detail": "3 turns"
+    },
+    {
+      "name": "translated",
+      "pass": true,
+      "detail": "3 of 3 turns"
+    },
+    {
+      "name": "recap",
+      "pass": true,
+      "detail": "ready"
+    },
+    {
+      "name": "answered",
+      "pass": true,
+      "detail": "done"
+    },
+    {
+      "name": "read the session",
+      "pass": true,
+      "detail": "4 tool calls"
+    },
+    {
+      "name": "only Capy's tools",
+      "pass": true,
+      "detail": "0 others"
+    },
+    {
+      "name": "citations are stored turns",
+      "pass": true,
+      "detail": "1 cited, 0 unknown"
+    },
+    {
+      "name": "thread saved",
+      "pass": true,
+      "detail": "5 messages"
+    },
+    {
+      "name": "edits undone",
+      "pass": true,
+      "detail": "3 of 3"
+    }
+  ],
+  "verdict": "pass"
+}
